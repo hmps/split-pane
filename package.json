@@ -35,7 +35,8 @@
     "karma-safari-launcher": "latest",
     "karma-script-launcher": "latest",
     "main-bower-files": "~2.0",
-    "require-dir": "~0.1"
+    "require-dir": "~0.1",
+    "wiredep": "^2.2.0"
   },
   "dependencies": {}
 }
