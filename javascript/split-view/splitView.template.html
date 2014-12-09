@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="columns col-md-3">
+        <ul class="list-group">
+            <li
+                class="list-group-item"
+                ng-click="splitView.updateSelected()"
+            >
+                <a ui-sref="app">CREATE</a>
+            </li>
+            <li
+                class="list-group-item"
+                ng-repeat="item in splitView.model"
+                ng-click="splitView.updateSelected($index)"
+            >
+                <a ui-sref="app.user({ id: item.id })">{{item.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="columns col-md-9">
+        <div class="panel panel-default" ng-transclude></div>
+    </div>
+</div>

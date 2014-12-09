@@ -63,8 +63,6 @@
         "typeof"
     ],
 
-
-    "safeContextKeyword": "_this",
     "validateLineBreaks": "LF",
     "validateQuoteMarks": "'",
     "validateParameterSeparator": ", ",

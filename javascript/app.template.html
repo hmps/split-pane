@@ -1,0 +1,11 @@
+<div class="container">
+    <h1><a ui-sref="app">application</a></h1>
+    {{app.selectedIndex}}
+    <div split-view ctrl="app">
+        <input type="text" ng-model="app.selected.name" placeholder="Name"><br>
+        <input type="text" ng-model="app.selected.age" placeholder="Age"><br>
+        <input type="text" ng-model="app.selected.gender" placeholder="Gender">
+        <button ng-click="app.fn.save()">SAVE</button>
+        <button ng-click="app.fn.remove()">remove</button>
+    </div>
+</div>
